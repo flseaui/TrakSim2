@@ -1,6 +1,10 @@
 package sim
 
+import engine.TrakEngine
+
 fun main(args: Array<String>) {
-    print("T r a k s i m")
+
+    val engine = TrakEngine()
+    engine.run()
 
 }
